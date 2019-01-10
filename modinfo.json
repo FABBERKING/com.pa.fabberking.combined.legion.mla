@@ -1,0 +1,93 @@
+ {
+   "context": "server",
+   "identifier": "com.pa.fabberking.combined.legion.mla",
+   "display_name": "Combined MLA and Legion Faction",
+   "description": "Combines MLA and Legion into one faction, Removes redundant structures so things fit better. Requires Legion expansion.",
+   "author": "FABBERKING, nicb1, Crembels, KillerKiwiJuice, mgmetal13, zx0, Alpha2546, PRoeleert, wondible, mikeyh, Quitch, Stuart98, dom314, CptConundrum, Elodea, AndreasG, Clopse, Graushwein, N30N, Qzipco, WPMarshall, xankar",
+
+   "version": "1.6.2",
+   "build": "112595",
+   "date": "2019-01-10",
+
+   "signature": "",
+   "forum": "",
+   "searchable": [
+ "legion",
+ "mla",
+ "combined",
+ "faction"
+ ],
+   "dependencies": [
+],
+"scenes": {
+    "server_browser": [
+      "coui://ui/mods/com.pa.legion-expansion/server_browser.js"
+    ],
+    "load_planet": [
+       "coui://ui/mods/com.pa.legion-expansion/load_planet.js"
+    ],
+    "settings": [
+      "coui://ui/mods/com.pa.legion-expansion/settings.js"
+    ],
+    "shared_build": [
+      "coui://ui/mods/com.pa.legion-expansion/shared_build.js"
+    ],
+    "live_game": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game.js"
+    ],
+    "live_game_players": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_players.js"
+    ],
+    "live_game_planets": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_planets.js"
+    ],
+    "live_game_control_group_bar": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_control_group_bar.js"
+    ],
+    "live_game_options_bar": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_options_bar.js"
+    ],
+    "live_game_econ": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_econ.js"
+    ],
+    "live_game_time_bar": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_time_bar.js"
+    ],
+    "live_game_build_bar": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_build_bar.js"
+    ],
+    "live_game_build_hover": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_build_hover.js"
+    ],
+    "live_game_action_bar": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_action_bar.js"
+    ],
+    "live_game_selection": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_selection.js"
+    ],
+    "live_game_sandbox": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_sandbox.js"
+    ],
+    "live_game_menu": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_menu.js"
+    ],
+    "new_game": [
+      "coui://ui/mods/com.pa.legion-expansion/new_game.js"
+    ],
+    "start": [
+      "coui://ui/mods/com.pa.legion-expansion/start.js"
+    ]
+  },
+   "priority": 75,
+   "icon": "https://i.imgur.com/Eal5t9L.png",
+    "category":
+    [
+        "units",
+        "balance",
+        "",
+        "gameplay",
+        "",
+        "",
+        ""
+    ]
+}
