@@ -30,16 +30,16 @@ var Build = (function() {
 
     HotkeyModel.SpecIdToGridMap = {
 			//UTILITY////////////////////////////////////////////////
-			"/pa/units/land/energy_plant_adv/energy_plant_adv.json": ["utility", 3],
-			"/pa/units/land/metal_extractor_adv/metal_extractor_adv.json": ["utility", 4],			
-			"/pa/units/land/radar_adv/radar_adv.json": ["utility", 2],
-			"/pa/units/land/radar/radar.json": ["utility", 8],
-			"/pa/units/land/energy_plant/energy_plant.json": ["utility", 9],
-			"/pa/units/land/metal_extractor/metal_extractor.json": ["utility", 10],
-			"/pa/units/land/land_barrier/land_barrier.json": ["utility", 14],
-			"/pa/units/land/teleporter/teleporter.json": ["utility", 15],
-			"/pa/units/land/energy_storage/energy_storage.json": ["utility", 330],
-			"/pa/units/land/metal_storage/metal_storage.json": ["utility", 340],
+			"/pa/units/land/energy_plant_adv/energy_plant_adv.json": ["utility", 4],
+			"/pa/units/land/metal_extractor_adv/metal_extractor_adv.json": ["utility", 5],			
+			"/pa/units/land/radar_adv/radar_adv.json": ["utility", 9],
+			"/pa/units/land/radar/radar.json": ["utility", 15],
+			"/pa/units/land/energy_plant/energy_plant.json": ["utility", 10],
+			"/pa/units/land/metal_extractor/metal_extractor.json": ["utility", 11],
+			"/pa/units/land/land_barrier/land_barrier.json": ["utility", 13],
+			"/pa/units/land/teleporter/teleporter.json": ["utility", 14],
+			"///pa/units/land/energy_storage/energy_storage.json": ["utility", 330],
+			"///pa/units/land/metal_storage/metal_storage.json": ["utility", 340],
 			
 			"///pa/units/land/l_energy_plant_adv/l_energy_plant_adv.json": [ "utility", 3 ],
 			"///pa/units/land/l_mex_adv/l_mex_adv.json": [ "utility", 4 ],
@@ -50,7 +50,7 @@ var Build = (function() {
 			"///pa/units/land/l_land_barrier/l_land_barrier.json": [ "utility", 14 ],
 			"///pa/units/land/l_teleporter/l_teleporter.json": [ "utility", 250 ],
 			"///pa/units/land/l_radar/l_radar.json": [ "utility", 260 ],
-			"/pa/units/land/l_storage/l_storage.json": [ "utility", 16 ],
+			"/pa/units/land/l_storage/l_storage.json": [ "utility", 17 ],
 			"/pa/units/land/l_shield_gen/l_shield_gen.json": [ "combat", 2 ],
 			
 			"/pa/units/orbital/l_mining_platform/l_mining_platform.json": [ "orbital_structure", 13 ],
@@ -58,10 +58,10 @@ var Build = (function() {
 			"/pa/units/air/l_flying_teleporter/l_flying_teleporter.json": [ "factory", 6 ],
 			
 			"//pa/units/land/l_titan_structure/l_titan_structure.json": [ "orbital_structure", 60 ],
-			"/pa/units/land/titan_structure/titan_structure.json": ["utility", 13],
+			"/pa/units/land/titan_structure/titan_structure.json": ["utility", 1],
 			
 			
-			"///pa/units/orbital/l_deep_space_radar/l_deep_space_radar.json": [ "utility", 14 ],
+			"/pa/units/orbital/l_deep_space_radar/l_deep_space_radar.json": [ "utility", 3 ],
 			
 
 			//FACTORY//////////////////////////////////////////////////
@@ -104,41 +104,41 @@ var Build = (function() {
 			
 			
 			//COMBAT////////////////////////////////////////////////////
-			"/pa/units/land/control_module/control_module.json": ["utility", 1],
+			"/pa/units/land/control_module/control_module.json": ["utility", 2],
 			"///pa/units/land/l_anti_nuke_launcher/l_anti_nuke_launcher.json": [ "combat", 100 ],
 			"///pa/units/land/l_nuke_launcher/l_nuke_launcher.json": [ "factory", 200 ],
-			"/pa/units/land/l_rocket_barrage/l_rocket_barrage.json": [ "combat", 1 ],
+			"/pa/units/land/l_rocket_barrage/l_rocket_barrage.json": [ "combat", 0 ],
 			"///pa/units/orbital/l_delta_v_engine/l_delta_v_engine.json": [ "factory", 500 ],
 			
-			"/pa/units/land/laser_defense_adv/laser_defense_adv.json": ["combat", 0],
+			"/pa/units/land/laser_defense_adv/laser_defense_adv.json": ["combat", 1],
 			"/pa/units/land/anti_nuke_launcher/anti_nuke_launcher.json": ["utility", 6],
 			"/pa/units/land/nuke_launcher/nuke_launcher.json": ["utility", 0],
 			"/pa/units/land/tactical_missile_launcher/tactical_missile_launcher.json": ["combat", 5],
-			"/pa/units/land/l_flame_turret/l_flame_turret.json": [ "combat", 10 ],
-			"/pa/units/orbital/delta_v_engine/delta_v_engine.json": ["utility", 7],
+			"/pa/units/land/l_flame_turret/l_flame_turret.json": [ "combat", 4 ],
+			"/pa/units/orbital/delta_v_engine/delta_v_engine.json": ["utility", 8],
 			
-			"/pa/units/land/l_t1_turret_adv/l_t1_turret_adv.json": [ "combat", 13 ],
-			"/pa/units/land/l_air_defense_adv/l_air_defense_adv.json": [ "combat", 7 ],			
+			"/pa/units/land/l_t1_turret_adv/l_t1_turret_adv.json": [ "combat", 6 ],
+			"///pa/units/land/l_air_defense_adv/l_air_defense_adv.json": [ "combat", 7 ],			
 			"///pa/units/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv.json": [ "factory", 140 ],
 			"/pa/units/orbital/l_defense_satellite/l_defense_satellite.json": [ "orbital_structure", 12 ],
-			"/pa/units/land/l_artillery_long/l_artillery_long.json": [ "combat", 4 ],
+			"/pa/units/land/l_artillery_long/l_artillery_long.json": [ "combat", 10 ],
 			"/pa/units/orbital/l_orbital_dropper/l_orbital_dropper.json": [ "orbital_structure", 14 ],
 			
-			"///pa/units/land/l_t1_turret_basic/l_t1_turret_basic.json": [ "factory", 180 ],
+			"/pa/units/land/l_t1_turret_basic/l_t1_turret_basic.json": [ "combat", 12 ],
 			"/pa/units/land/air_defense_adv/air_defense_adv.json": ["combat", 8],
 			"/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.json": ["combat", 11],
 			"/pa/units/orbital/defense_satellite/defense_satellite.json": ["orbital_structure", 6],
 			"/pa/units/land/artillery_long/artillery_long.json": ["combat", 3],
 			"/pa/units/land/unit_cannon/unit_cannon.json": ["factory", 7],
 			
-			"/pa/units/land/laser_defense/laser_defense.json": ["combat", 6],
+			"/pa/units/land/laser_defense/laser_defense.json": ["combat", 7],
 			"///pa/units/land/l_air_defense/l_air_defense.json": [ "factory", 250 ],
 			"///pa/units/sea/l_torpedo_launcher/l_torpedo_launcher.json": [ "factory", 260 ],
 			"///pa/units/orbital/l_ion_defense/l_ion_defense.json": [ "factory", 270 ],
 			"///pa/units/land/l_artillery_short/l_artillery_short.json": [ "factory", 280 ],
 			"/pa/units/land/l_swarm_hive/l_swarm_hive.json": [ "combat", 16 ],
 			
-			"/pa/units/land/laser_defense_single/laser_defense_single.json": ["combat", 12],
+			"/pa/units/land/laser_defense_single/laser_defense_single.json": ["combat", 13],
 			"/pa/units/land/air_defense/air_defense.json": ["combat", 14],
 			"/pa/units/sea/torpedo_launcher/torpedo_launcher.json": ["combat", 17],
 			"/pa/units/orbital/ion_defense/ion_defense.json": ["utility", 12],
