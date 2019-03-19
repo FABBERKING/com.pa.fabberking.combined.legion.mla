@@ -30,23 +30,23 @@ var Build = (function() {
 
     HotkeyModel.SpecIdToGridMap = {
 			//UTILITY////////////////////////////////////////////////
-			"/pa/units/land/energy_plant_adv/energy_plant_adv.json": ["utility", 4],
-			"/pa/units/land/metal_extractor_adv/metal_extractor_adv.json": ["utility", 5],			
+			"//pa/units/land/energy_plant_adv/energy_plant_adv.json": ["utility", 4],
+			"///pa/units/land/metal_extractor_adv/metal_extractor_adv.json": ["utility", 5],			
 			"/pa/units/land/radar_adv/radar_adv.json": ["utility", 9],
 			"/pa/units/land/radar/radar.json": ["utility", 15],
-			"/pa/units/land/energy_plant/energy_plant.json": ["utility", 10],
-			"/pa/units/land/metal_extractor/metal_extractor.json": ["utility", 11],
+			"//pa/units/land/energy_plant/energy_plant.json": ["utility", 10],
+			"///pa/units/land/metal_extractor/metal_extractor.json": ["utility", 11],
 			"/pa/units/land/land_barrier/land_barrier.json": ["utility", 13],
 			"/pa/units/land/teleporter/teleporter.json": ["utility", 14],
 			"/pa/units/land/energy_storage/energy_storage.json": ["utility", 16],
 			"/pa/units/land/metal_storage/metal_storage.json": ["utility", 17],
 			
-			"///pa/units/land/l_energy_plant_adv/l_energy_plant_adv.json": [ "utility", 3 ],
-			"///pa/units/land/l_mex_adv/l_mex_adv.json": [ "utility", 4 ],
+			"/pa/units/land/l_energy_plant_adv/l_energy_plant_adv.json": [ "utility", 4 ],
+			"/pa/units/land/l_mex_adv/l_mex_adv.json": [ "utility", 5 ],
 			
 			"///pa/units/land/l_radar_adv/l_radar_adv.json": [ "utility", 140 ],
-			"///pa/units/land/l_energy_plant/l_energy_plant.json": [ "utility", 9 ],
-			"///pa/units/land/l_mex/l_mex.json": [ "utility", 10 ],
+			"/pa/units/land/l_energy_plant/l_energy_plant.json": [ "utility", 10 ],
+			"/pa/units/land/l_mex/l_mex.json": [ "utility", 11 ],
 			"///pa/units/land/l_land_barrier/l_land_barrier.json": [ "utility", 14 ],
 			"///pa/units/land/l_teleporter/l_teleporter.json": [ "utility", 250 ],
 			"///pa/units/land/l_radar/l_radar.json": [ "utility", 260 ],
