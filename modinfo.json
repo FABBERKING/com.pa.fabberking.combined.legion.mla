@@ -1,13 +1,13 @@
  {
    "context": "server",
-   "identifier": "com.pa.fabberking.combined.legion.mla",
+   "identifier": "com.pa.fabberking.combined.legion.mla-dev",
    "display_name": "Combined MLA and Legion Faction",
    "description": "Combines MLA and Legion into one faction, Removes redundant structures so things fit better.",
    "author": "FABBERKING, nicb1, Crembels, KillerKiwiJuice, mgmetal13, zx0, Alpha2546, PRoeleert, wondible, mikeyh, Quitch, Stuart98, dom314, CptConundrum, Elodea, AndreasG, Clopse, Graushwein, N30N, Qzipco, WPMarshall, xankar",
 
-   "version": "1.6.2",
-   "build": "112595",
-   "date": "2019-01-14",
+   "version": "1.7.0",
+   "build": "113132",
+   "date": "2019-03-21",
 
    "signature": "",
    "forum": "https://forums.planetaryannihilation.com/threads/rel-mla-legion-mod.73245/",
