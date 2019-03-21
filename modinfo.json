@@ -1,6 +1,6 @@
  {
    "context": "server",
-   "identifier": "com.pa.fabberking.combined.legion.mla-dev",
+   "identifier": "com.pa.fabberking.combined.legion.mla",
    "display_name": "Combined MLA and Legion Faction",
    "description": "Combines MLA and Legion into one faction, Removes redundant structures so things fit better.",
    "author": "FABBERKING, nicb1, Crembels, KillerKiwiJuice, mgmetal13, zx0, Alpha2546, PRoeleert, wondible, mikeyh, Quitch, Stuart98, dom314, CptConundrum, Elodea, AndreasG, Clopse, Graushwein, N30N, Qzipco, WPMarshall, xankar",
