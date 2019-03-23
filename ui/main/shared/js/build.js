@@ -38,8 +38,8 @@ var Build = (function() {
 			"///pa/units/land/metal_extractor/metal_extractor.json": ["utility", 11],
 			"/pa/units/land/land_barrier/land_barrier.json": ["utility", 13],
 			"/pa/units/land/teleporter/teleporter.json": ["utility", 14],
-			"/pa/units/land/energy_storage/energy_storage.json": ["utility", 16],
-			"/pa/units/land/metal_storage/metal_storage.json": ["utility", 17],
+			"///pa/units/land/energy_storage/energy_storage.json": ["utility", 16],
+			"///pa/units/land/metal_storage/metal_storage.json": ["utility", 17],
 			
 			"/pa/units/land/l_energy_plant_adv/l_energy_plant_adv.json": [ "utility", 4 ],
 			"/pa/units/land/l_mex_adv/l_mex_adv.json": [ "utility", 5 ],
@@ -50,7 +50,7 @@ var Build = (function() {
 			"///pa/units/land/l_land_barrier/l_land_barrier.json": [ "utility", 14 ],
 			"///pa/units/land/l_teleporter/l_teleporter.json": [ "utility", 250 ],
 			"///pa/units/land/l_radar/l_radar.json": [ "utility", 260 ],
-			"///pa/units/land/l_storage/l_storage.json": [ "utility", 17 ],
+			"/pa/units/land/l_storage/l_storage.json": [ "utility", 16 ],
 			"/pa/units/land/l_shield_gen/l_shield_gen.json": [ "combat", 2 ],
 			
 			"/pa/units/orbital/l_mining_platform/l_mining_platform.json": [ "orbital_structure", 13 ],
