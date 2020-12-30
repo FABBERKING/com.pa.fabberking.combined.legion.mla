@@ -79,13 +79,13 @@ var Build = (function() {
         "/pa/units/land/air_defense_adv/air_defense_adv.json": ["combat", 7, {row: 1, column: 2}],
         "/pa/units/land/artillery_unit_launcher/artillery_unit_launcher.json": ["combat", 8, {row: 1, column: 3}],
         "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.json": ["combat", 9, {row: 1, column: 5}],
-        "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher.json": ["combat", 10, {row: 1, column: 6}],
+        "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher.json": ["combat", 10, {row: 2, column: 6}],
 
         "/pa/units/land/laser_defense_single/laser_defense_single.json": ["combat", 12, {row: 2, column: 1}],
         "/pa/units/land/air_defense/air_defense.json": ["combat", 13, {row: 2, column: 2}],
         "/pa/units/land/artillery_short/artillery_short.json": ["combat", 14, {row: 2, column: 3}],
         "/pa/units/sea/torpedo_launcher/torpedo_launcher.json": ["combat", 15, {row: 2, column: 5}],
-        "/pa/units/orbital/ion_defense/ion_defense.json": ["combat", 16, {row: 2, column: 6}],
+        "/pa/units/orbital/ion_defense/ion_defense.json": ["combat", 16, {row: 2, column: 7}],
 
 
         "/pa/units/land/tank_nuke/tank_nuke.json": ["vehicle", 0, {row: 0, column: 0}],
@@ -219,7 +219,7 @@ var Build = (function() {
     //  "/pa/units/land/l_air_defense_adv/l_air_defense_adv.json": ["L_combat", 7, { row: 1, column: 1, titans: true }],
       "/pa/units/land/l_swarm_hive/l_swarm_hive.json": ["combat", 8, { row: 2, column: 4, titans: true }],
     //  "/pa/units/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv.json": ["L_combat", 9, { row: 1, column: 3, titans: true }],
-    //  "/pa/units/land/l_anti_nuke_launcher/l_anti_nuke_launcher.json": ["combat", 10, { row: 1, column: 6, titans: true }],
+      "/pa/units/land/l_anti_nuke_launcher/l_anti_nuke_launcher.json": ["combat", 10, { row: 1, column: 6, titans: true }],
       "/pa/units/land/l_t1_turret_basic/l_t1_turret_basic.json": ["combat", 12, { row: 2, column: 0, titans: true }],
     //  "/pa/units/land/l_air_defense/l_air_defense.json": ["L_combat", 13, { row: 2, column: 1, titans: true }],
     //  "/pa/units/land/l_artillery_short/l_artillery_short.json": ["L_combat", 14, { row: 2, column: 2, titans: true }],
