@@ -211,13 +211,13 @@ var Build = (function() {
       "/pa/units/land/l_vehicle_factory/l_vehicle_factory.json": ["factory", 16, { row: 2, column: 6, titans: true }],
 
       "/pa/units/land/l_flame_turret/l_flame_turret.json": ["combat", 3, { row: 0, column: 5, titans: true }],
-      "/pa/units/land/l_artillery_long/l_artillery_long.json": ["combat", 2, { row: 0, column: 3, titans: true }],
+      "/pa/units/land/l_artillery_long/l_artillery_long.json": ["combat", 2, { row: 1, column: 4, titans: true }],
       "/pa/units/land/l_rocket_barrage/l_rocket_barrage.json": ["combat", 0, { row: 1, column: 0, titans: true }],
-      "/pa/units/land/l_shield_gen/l_shield_gen.json": ["combat", 1, { row: 1, column: 3, titans: true }],
+      "/pa/units/land/l_shield_gen/l_shield_gen.json": ["combat", 1, { row: 0, column: 0, titans: true }],
     //  "/pa/units/land/l_nuke_launcher/l_nuke_launcher.json": ["L_combat", 4, { row: 0, column: 4, titans: true }],
       "/pa/units/land/l_t1_turret_adv/l_t1_turret_adv.json": ["combat", 6, { row: 2, column: 0, titans: true }],
       "/pa/units/land/l_air_defense_adv/l_air_defense_adv.json": ["combat", 7, { row: 0, column: 2, titans: true }],
-      "/pa/units/land/l_swarm_hive/l_swarm_hive.json": ["combat", 8, { row: 1, column: 4, titans: true }],
+      "/pa/units/land/l_swarm_hive/l_swarm_hive.json": ["combat", 8, { row: 1, column: 3, titans: true }],
       "/pa/units/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv.json": ["combat", 9, { row: 2, column: 4, titans: true }],
       "/pa/units/land/l_anti_nuke_launcher/l_anti_nuke_launcher.json": ["combat", 10, { row: 1, column: 6, titans: true }],
       "/pa/units/land/l_t1_turret_basic/l_t1_turret_basic.json": ["combat", 12, { row: 3, column: 0, titans: true }],
@@ -340,7 +340,7 @@ var Build = (function() {
     "/pa/units/addon/adv_stealth_transport/adv_stealth_transport.json": ["air", 0, { row: 2, column: 6 }],
 
     "/pa/units/addon/pounder/pounder.json": ["combat", 0, { row: 1, column: 7 }],
-    "/pa/units/addon/anti_missile_tower/anti_missile_tower.json": ["combat", 0, { row: 0, column: 7 }],
+    "/pa/units/addon/anti_missile_tower/anti_missile_tower.json": ["combat", 0, { row: 0, column: 1 }],
 
     "/pa/units/addon/andreas/andreas.json": ["orbital", 0, { row: 3, column: 5 }],
 
@@ -387,8 +387,8 @@ var Build = (function() {
 	
 	
 
-    "/pa/units/land/artillery_comet/artillery_comet.json": ["combat", 0, { row: 1, column: 8, titans: true }],
-    "/pa/units/land/artillery_morningstar/artillery_morningstar.json": ["combat", 0, { row: 0, column: 8, titans: true }],
+    "/pa/units/land/artillery_comet/artillery_comet.json": ["combat", 0, { row: 2, column: 7, titans: true }],
+    "/pa/units/land/artillery_morningstar/artillery_morningstar.json": ["combat", 0, { row: 0, column: 7, titans: true }],
     "/pa/units/sea/bolide/bolide.json": ["sea", 0, { row: 2, column: 5, titans: true }],
     "/pa/units/land/bot_sun/bot_sun.json": ["bot", 0, { row: 3, column: 8, titans: true }],
     "/pa/units/orbital/orbital_armageddon/orbital_armageddon.json": ["orbital", 0, { row: 2, column: 4, titans: true }],
