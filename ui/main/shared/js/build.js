@@ -316,6 +316,13 @@ var Build = (function() {
       "/pa/units/land/l_titan_vehicle/l_titan_vehicle.json": [        "factory",        4,        { row: 1, column: 0, titans: true }      ],
       "/pa/units/orbital/l_titan_orbital/l_titan_orbital.json": [        "orbital_structure",        1,        { row: 1, column: 1, titans: true }      ],
 //      "/pa/units/land/l_titan_structure/l_titan_structure.json": [        "L_utility",        0,        { row: 0, column: 0, titans: true }      ],
+
+
+
+
+
+
+
 		
 		
 		
@@ -351,7 +358,8 @@ var Build = (function() {
 //    "/pa/units/addon/metal_generator/metal_generator.json": ["utility", 0, { row: 1, column: 5 }],
 //    "/pa/units/addon/adv_metal_generator/adv_metal_generator.json": ["utility", 0, { row: 0, column: 5 }],
 //    "/pa/units/addon/adv_metal_storage/adv_metal_storage.json": ["utility", 0, { row: 0, column: 6 }],
-    "/pa/units/addon/adv_energy_storage/adv_energy_storage.json": ["utility", 0, { row: 3, column: 5 }],
+    "/pa/units/addon/adv_energy_storage/adv_energy_storage.json": ["utility", 0, { row: 0, column: 3 }],
+	"/pa/units/addon/metal_cache/metal_cache.json": ["utility", 0, { row: 0, column: 4 }],
     "/pa/units/addon/solar_cell/solar_cell.json": ["utility", 0, { row: 3, column: 4 }],
 
     "/pa/units/addon/fab_tower/fab_tower.json": ["factory", 0, { row: 3, column: 7 }],
@@ -366,9 +374,21 @@ var Build = (function() {
         
     "/pa/units/l_addon/fab_turret/fab_turret.json": ["factory", 0, { row: 2, column: 7, titans: true }],
     "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json": ["factory", 0, { row: 0, column: 7, titans: true }],
+	"/pa/units/addon/jammer_titan/jammer_titan.json": ["utility", 0, { row: 2, column: 0 }],
+	"/pa/units/addon/system_radar/system_radar.json": ["utility", 0, { row: 1, column: 2 }],
+	"/pa/units/addon/basic_missile_defence/basic_missile_defence.json": ["combat", 0, { row: 3, column: 7 }],
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
-    "/pa/units/land/artillery_comet/artillery_comet.json": ["combat", 0, { row: 3, column: 7, titans: true }],
-    "/pa/units/land/artillery_morningstar/artillery_morningstar.json": ["combat", 0, { row: 2, column: 7, titans: true }],
+    "/pa/units/land/artillery_comet/artillery_comet.json": ["combat", 0, { row: 1, column: 8, titans: true }],
+    "/pa/units/land/artillery_morningstar/artillery_morningstar.json": ["combat", 0, { row: 0, column: 8, titans: true }],
     "/pa/units/sea/bolide/bolide.json": ["sea", 0, { row: 2, column: 5, titans: true }],
     "/pa/units/land/bot_sun/bot_sun.json": ["bot", 0, { row: 3, column: 8, titans: true }],
     "/pa/units/orbital/orbital_armageddon/orbital_armageddon.json": ["orbital", 0, { row: 2, column: 4, titans: true }],
