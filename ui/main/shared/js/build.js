@@ -237,7 +237,7 @@ var Build = (function() {
     //  "/pa/units/land/l_land_barrier/l_land_barrier.json": ["L_utility", 12, { row: 2, column: 0, titans: true }],
     //  "/pa/units/land/l_teleporter/l_teleporter.json": ["L_utility", 13, { row: 2, column: 1, titans: true }],
       "/pa/units/land/l_radar/l_radar.json": ["utility", 14, { row: 3, column: 2, titans: true }],
-      "/pa/units/land/l_storage/l_storage.json": ["utility", 15, { row: 3, column: 3, titans: true }],
+      "/pa/units/land/l_storage/l_storage.json": ["utility", 15, { row: 3, column: 4, titans: true }],
 
       "/pa/units/land/l_fabrication_vehicle_adv/l_fabrication_vehicle_adv.json": ["L_vehicle", 6, { row: 2, column: 0, titans: true }],
       "/pa/units/land/l_tank_laser_adv/l_tank_laser_adv.json": ["L_vehicle", 7, { row: 2, column: 1, titans: true }],
@@ -360,7 +360,7 @@ var Build = (function() {
 //    "/pa/units/addon/adv_metal_storage/adv_metal_storage.json": ["utility", 0, { row: 0, column: 6 }],
     "/pa/units/addon/adv_energy_storage/adv_energy_storage.json": ["utility", 0, { row: 0, column: 3 }],
 	"/pa/units/addon/metal_cache/metal_cache.json": ["utility", 0, { row: 0, column: 4 }],
-    "/pa/units/addon/solar_cell/solar_cell.json": ["utility", 0, { row: 3, column: 4 }],
+    "/pa/units/addon/solar_cell/solar_cell.json": ["utility", 0, { row: 3, column: 3 }],
 
     "/pa/units/addon/fab_tower/fab_tower.json": ["factory", 0, { row: 3, column: 7 }],
     "/pa/units/addon/adv_fab_tower/adv_fab_tower.json": ["factory", 0, { row: 1, column: 7 }],
@@ -374,7 +374,7 @@ var Build = (function() {
         
     "/pa/units/l_addon/fab_turret/fab_turret.json": ["factory", 0, { row: 2, column: 7, titans: true }],
     "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json": ["factory", 0, { row: 0, column: 7, titans: true }],
-	"/pa/units/addon/jammer_titan/jammer_titan.json": ["utility", 0, { row: 2, column: 0 }],
+	"/pa/units/addon/jammer_titan/jammer_titan.json": ["utility", 0, { row: 0, column: 2 }],
 	"/pa/units/addon/system_radar/system_radar.json": ["utility", 0, { row: 1, column: 2 }],
 	"/pa/units/addon/basic_missile_defence/basic_missile_defence.json": ["combat", 0, { row: 3, column: 7 }],
 	
@@ -392,7 +392,7 @@ var Build = (function() {
     "/pa/units/sea/bolide/bolide.json": ["sea", 0, { row: 2, column: 5, titans: true }],
     "/pa/units/land/bot_sun/bot_sun.json": ["bot", 0, { row: 3, column: 8, titans: true }],
     "/pa/units/orbital/orbital_armageddon/orbital_armageddon.json": ["orbital", 0, { row: 2, column: 4, titans: true }],
-    "/pa/units/land/tank_heavy_meteor/tank_heavy_meteor.json": ["vehicle", 0, { row: 2, column: 7, titans: true }],	
+    "/pa/units/land/tank_heavy_meteor/tank_heavy_meteor.json": ["vehicle", 0, { row: 1, column: 4, titans: true }],	
 	
     };
 
