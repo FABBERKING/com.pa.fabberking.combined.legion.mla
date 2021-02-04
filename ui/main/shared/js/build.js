@@ -392,7 +392,7 @@ var Build = (function() {
 	
 	
 
-    "/pa/units/land/artillery_comet/artillery_comet.json": ["combat", 0, { row: 2, column: 7, titans: true }],
+    "/pa/units/land/artillery_comet/artillery_comet.json": ["combat", 0, { row: 3, column: 7, titans: true }],
     "/pa/units/land/artillery_morningstar/artillery_morningstar.json": ["combat", 0, { row: 0, column: 7, titans: true }],
     "/pa/units/sea/bolide/bolide.json": ["sea", 0, { row: 2, column: 5, titans: true }],
     "/pa/units/land/bot_sun/bot_sun.json": ["bot", 0, { row: 3, column: 8, titans: true }],
