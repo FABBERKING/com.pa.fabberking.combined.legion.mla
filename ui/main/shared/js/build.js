@@ -339,7 +339,7 @@ var Build = (function() {
 	"/pa/units/addon/swordfish/swordfish.json": ["air", 0, { row: 3, column: 6 }],
     "/pa/units/addon/adv_stealth_transport/adv_stealth_transport.json": ["air", 0, { row: 2, column: 6 }],
 
-    "/pa/units/addon/pounder/pounder.json": ["combat", 0, { row: 1, column: 6 }],
+    "/pa/units/addon/pounder/pounder.json": ["combat", 0, { row: 1, column: 2 }],
     "/pa/units/addon/anti_missile_tower/anti_missile_tower.json": ["combat", 0, { row: 0, column: 1 }],
 
     "/pa/units/addon/andreas/andreas.json": ["orbital", 0, { row: 3, column: 5 }],
@@ -376,7 +376,7 @@ var Build = (function() {
     "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json": ["factory", 0, { row: 0, column: 7, titans: true }],
 	"/pa/units/addon/jammer_titan/jammer_titan.json": ["utility", 0, { row: 0, column: 2 }],
 	"/pa/units/addon/system_radar/system_radar.json": ["utility", 0, { row: 1, column: 2 }],
-	"/pa/units/addon/basic_missile_defence/basic_missile_defence.json": ["combat", 0, { row: 3, column: 6 }],
+	"/pa/units/addon/basic_missile_defence/basic_missile_defence.json": ["combat", 0, { row: 2, column: 5 }],
 	"/pa/units/addon/demi_titan_bot/demi_titan_bot.json": ["factory", 0, { row: 0, column: 1 }],
 	"/pa/units/addon/orbital_anti_nuke/orbital_anti_nuke.json": ["orbital_structure", 6, { row: 0, column: 3 }],
 	"/pa/units/l_addon/l_orbital_jammer/l_orbital_jammer.json": ["orbital_structure", 0, { row: 1, column: 3 }],
@@ -392,7 +392,7 @@ var Build = (function() {
 	
 	
 
-    "/pa/units/land/artillery_comet/artillery_comet.json": ["combat", 0, { row: 2, column: 6, titans: true }],
+    "/pa/units/land/artillery_comet/artillery_comet.json": ["combat", 0, { row: 3, column: 6, titans: true }],
     "/pa/units/land/artillery_morningstar/artillery_morningstar.json": ["combat", 0, { row: 0, column: 6, titans: true }],
     "/pa/units/sea/bolide/bolide.json": ["sea", 0, { row: 2, column: 5, titans: true }],
     "/pa/units/land/bot_sun/bot_sun.json": ["bot", 0, { row: 3, column: 8, titans: true }],
