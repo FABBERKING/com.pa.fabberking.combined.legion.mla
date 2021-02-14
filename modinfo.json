@@ -2,12 +2,12 @@
    "context": "server",
    "identifier": "com.pa.fabberking.combined.legion.mla",
    "display_name": "Combined MLA and Legion Faction",
-   "description": "Combines MLA and Legion into one faction, Removes redundant structures so things fit better. Now able to be merged with Second Wave and Aurora Artillery.",
+   "description": "Combines MLA and Legion into one faction, Removes redundant structures. Now able to be merged with Second Wave and Aurora Artillery.",
    "author": "FABBERKING, Matiousajac, nicb1, Crembels, KillerKiwiJuice, mgmetal13, zx0, Alpha2546, PRoeleert, wondible, mikeyh, Quitch, Stuart98, dom314, CptConundrum, Elodea, AndreasG, Clopse, Graushwein, N30N, Qzipco, WPMarshall, xankar",
 
-   "version": "1.19.0",
-   "build": "115482",
-   "date": "2021-02-06",
+   "version": "1.20.0",
+   "build": "115506",
+   "date": "2021-02-14",
 
    "titansOnly": true,
    "signature": "",
