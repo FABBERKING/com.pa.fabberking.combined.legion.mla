@@ -34,7 +34,7 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 2700,
-  "buildable_types": "Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild",
+  "buildable_types": "Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild | Naval & Titan",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",

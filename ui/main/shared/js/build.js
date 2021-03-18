@@ -52,21 +52,21 @@ var Build = (function() {
     //    "/pa/units/land/metal_storage/metal_storage.json": ["utility", 16, {row: 2, column: 4}],
 
 
-        "/pa/units/air/titan_air/titan_air.json": ["factory", 1, {row: 3, column: 1}],
-        "/pa/units/land/titan_bot/titan_bot.json": ["factory", 3, {row: 2, column: 1}],
-        "/pa/units/land/titan_vehicle/titan_vehicle.json": ["factory", 5, {row: 1, column: 1}],
+        "/pa/units/air/titan_air/titan_air.json": ["factory", 1, {row: 0, column: 6}],
+        "/pa/units/land/titan_bot/titan_bot.json": ["factory", 3, {row: 0, column: 7}],
+        "/pa/units/land/titan_vehicle/titan_vehicle.json": ["factory", 5, {row: 0, column: 8}],
 
-        "/pa/units/land/unit_cannon/unit_cannon.json": ["factory", 6, {row: 1, column: 2}],
-        "/pa/units/sea/naval_factory_adv/naval_factory_adv.json": ["factory", 7, {row: 1, column: 3}],
-        "/pa/units/air/air_factory_adv/air_factory_adv.json": ["factory", 8, {row: 1, column: 4}],
-        "/pa/units/land/bot_factory_adv/bot_factory_adv.json": ["factory", 9, {row: 1, column: 5}],
-        "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv.json": ["factory", 10, {row: 1, column: 6}],
+        "/pa/units/land/unit_cannon/unit_cannon.json": ["factory", 6, {row: 1, column: 4}],
+        "/pa/units/sea/naval_factory_adv/naval_factory_adv.json": ["factory", 7, {row: 2, column: 5}],
+        "/pa/units/air/air_factory_adv/air_factory_adv.json": ["factory", 8, {row: 2, column: 6}],
+        "/pa/units/land/bot_factory_adv/bot_factory_adv.json": ["factory", 9, {row: 2, column: 7}],
+        "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv.json": ["factory", 10, {row: 2, column: 8}],
 
-        "/pa/units/orbital/orbital_launcher/orbital_launcher.json": ["factory", 12, {row: 3, column: 2}],
-        "/pa/units/sea/naval_factory/naval_factory.json": ["factory", 13, {row: 3, column: 3}],
-        "/pa/units/air/air_factory/air_factory.json": ["factory", 14, {row: 3, column: 4}],
-        "/pa/units/land/bot_factory/bot_factory.json": ["factory", 15, {row: 3, column: 5}],
-        "/pa/units/land/vehicle_factory/vehicle_factory.json": ["factory", 16, {row: 3, column: 6}],
+        "/pa/units/orbital/orbital_launcher/orbital_launcher.json": ["factory", 12, {row: 3, column: 4}],
+        "/pa/units/sea/naval_factory/naval_factory.json": ["factory", 13, {row: 3, column: 5}],
+        "/pa/units/air/air_factory/air_factory.json": ["factory", 14, {row: 3, column: 6}],
+        "/pa/units/land/bot_factory/bot_factory.json": ["factory", 15, {row: 3, column: 7}],
+        "/pa/units/land/vehicle_factory/vehicle_factory.json": ["factory", 16, {row: 3, column: 8}],
 
 
         "/pa/units/land/laser_defense_adv/laser_defense_adv.json": ["combat", 0, {row: 1, column: 1}],
@@ -195,20 +195,20 @@ var Build = (function() {
 		
 		
 		
+		//LEGION
 		
 		
-		
-	  "/pa/units/air/l_flying_teleporter/l_flying_teleporter.json": ["factory", 0, {row: 0, column: 2, titans: true }],
+	  "/pa/units/air/l_flying_teleporter/l_flying_teleporter.json": ["factory", 0, {row: 0, column: 4, titans: true }],
       "/pa/units/land/l_unit_cannon/l_unit_cannon.json": ["L_factory", 6, { row: 1, column: 0, titans: true }],
-      "/pa/units/sea/l_naval_factory_adv/l_naval_factory_adv.json": ["factory", 7, { row: 0, column: 3, titans: true }],
-      "/pa/units/air/l_air_factory_adv/l_air_factory_adv.json": ["factory", 8, { row: 0, column: 4, titans: true }],
-      "/pa/units/land/l_bot_factory_adv/l_bot_factory_adv.json": ["factory", 9, { row: 0, column: 5, titans: true }],
-      "/pa/units/land/l_vehicle_factory_adv/l_vehicle_factory_adv.json": ["factory", 10, { row: 0, column: 6, titans: true }],
-      "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher.json": ["factory", 12, { row: 2, column: 2, titans: true }],
-      "/pa/units/sea/l_naval_factory/l_naval_factory.json": ["factory", 13, { row: 2, column: 3, titans: true }],
-      "/pa/units/air/l_air_factory/l_air_factory.json": ["factory", 14, { row: 2, column: 4, titans: true }],
-      "/pa/units/land/l_bot_factory/l_bot_factory.json": ["factory", 15, { row: 2, column: 5, titans: true }],
-      "/pa/units/land/l_vehicle_factory/l_vehicle_factory.json": ["factory", 16, { row: 2, column: 6, titans: true }],
+      "/pa/units/sea/l_naval_factory_adv/l_naval_factory_adv.json": ["factory", 7, { row: 2, column: 0, titans: true }],
+      "/pa/units/air/l_air_factory_adv/l_air_factory_adv.json": ["factory", 8, { row: 2, column: 1, titans: true }],
+      "/pa/units/land/l_bot_factory_adv/l_bot_factory_adv.json": ["factory", 9, { row: 2, column: 2, titans: true }],
+      "/pa/units/land/l_vehicle_factory_adv/l_vehicle_factory_adv.json": ["factory", 10, { row: 2, column: 3, titans: true }],
+      "/pa/units/orbital/l_orbital_launcher/l_orbital_launcher.json": ["factory", 12, { row: 2, column: 4, titans: true }],
+      "/pa/units/sea/l_naval_factory/l_naval_factory.json": ["factory", 13, { row: 3, column: 0, titans: true }],
+      "/pa/units/air/l_air_factory/l_air_factory.json": ["factory", 14, { row: 3, column: 1, titans: true }],
+      "/pa/units/land/l_bot_factory/l_bot_factory.json": ["factory", 15, { row: 3, column: 2, titans: true }],
+      "/pa/units/land/l_vehicle_factory/l_vehicle_factory.json": ["factory", 16, { row: 3, column: 3, titans: true }],
 
       "/pa/units/land/l_flame_turret/l_flame_turret.json": ["combat", 3, { row: 0, column: 4, titans: true }],
       "/pa/units/land/l_artillery_long/l_artillery_long.json": ["combat", 2, { row: 0, column: 3, titans: true }],
@@ -311,9 +311,9 @@ var Build = (function() {
       "/pa/units/land/l_anti_nuke_launcher/l_anti_nuke_launcher_ammo.json": [        "L_ammo",        13,        { row: 3, column: 1, titans: true }      ],
       "/pa/units/land/l_nuke_launcher/l_nuke_launcher_ammo.json": [        "L_ammo",        14,        { row: 3, column: 2, titans: true }      ],
 
-      "/pa/units/air/l_titan_air/l_titan_air.json": [        "factory",        0,        { row: 3, column: 0, titans: true }      ],
-      "/pa/units/land/l_titan_bot/l_titan_bot.json": [        "factory",        2,        { row: 2, column: 0, titans: true }      ],
-      "/pa/units/land/l_titan_vehicle/l_titan_vehicle.json": [        "factory",        4,        { row: 1, column: 0, titans: true }      ],
+      "/pa/units/air/l_titan_air/l_titan_air.json": [        "factory",        0,        { row: 0, column: 1, titans: true }      ],
+      "/pa/units/land/l_titan_bot/l_titan_bot.json": [        "factory",        2,        { row: 0, column: 2, titans: true }      ],
+      "/pa/units/land/l_titan_vehicle/l_titan_vehicle.json": [        "factory",        4,        { row: 0, column: 3, titans: true }      ],
       "/pa/units/orbital/l_titan_orbital/l_titan_orbital.json": [        "orbital_structure",        1,        { row: 0, column: 1, titans: true }      ],
 //      "/pa/units/land/l_titan_structure/l_titan_structure.json": [        "L_utility",        0,        { row: 0, column: 0, titans: true }      ],
 
@@ -334,7 +334,7 @@ var Build = (function() {
 		
 		
 		
-		
+		//SECOND WAVE
 		
 	"/pa/units/addon/swordfish/swordfish.json": ["air", 0, { row: 3, column: 6 }],
     "/pa/units/addon/adv_stealth_transport/adv_stealth_transport.json": ["air", 0, { row: 2, column: 6 }],
@@ -355,14 +355,14 @@ var Build = (function() {
     "/pa/units/addon/bot_aa/bot_aa.json": ["bot", 0, { row: 3, column: 7 }],
     "/pa/units/addon/adv_heavy_bot/adv_heavy_bot.json": ["bot", 0, { row: 2, column: 6 }],
 
-    "/pa/units/addon/metal_generator/metal_generator.json": ["utility", 0, { row: 2, column: 5 }],
-    "/pa/units/addon/adv_metal_generator/adv_metal_generator.json": ["utility", 0, { row: 1, column: 5 }],
-    "/pa/units/addon/adv_metal_storage/adv_metal_storage.json": ["utility", 0, { row: 0, column: 4 }],
-    "/pa/units/addon/adv_energy_storage/adv_energy_storage.json": ["utility", 0, { row: 0, column: 3 }],
+    "/pa/units/addon/metal_generator/metal_generator.json": ["utility", 0, { row: 3, column: 5 }],
+    "/pa/units/addon/adv_metal_generator/adv_metal_generator.json": ["utility", 0, { row: 2, column: 5 }],
+    "/pa/units/addon/adv_metal_storage/adv_metal_storage.json": ["utility", 0, { row: 1, column: 5 }],
+    "/pa/units/addon/adv_energy_storage/adv_energy_storage.json": ["utility", 0, { row: 0, column: 5 }],
     "/pa/units/addon/solar_cell/solar_cell.json": ["utility", 0, { row: 3, column: 3 }],
 
-    "/pa/units/addon/fab_tower/fab_tower.json": ["factory", 0, { row: 3, column: 7 }],
-    "/pa/units/addon/adv_fab_tower/adv_fab_tower.json": ["factory", 0, { row: 1, column: 7 }],
+    "/pa/units/addon/fab_tower/fab_tower.json": ["factory", 0, { row: 3, column: 9 }],
+    "/pa/units/addon/adv_fab_tower/adv_fab_tower.json": ["factory", 0, { row: 1, column: 9 }],
 
 //    "/pa/units/l_addon/mass_generator/mass_generator.json": ["utility", 0, { row: 2, column: 5, titans: true }],
 //    "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json": ["utility", 0, { row: 1, column: 5, titans: true }],
@@ -371,13 +371,13 @@ var Build = (function() {
 
     "/pa/units/l_addon/anti_ground_satellite/almaz.json": ["L_orbital", 0, { row: 3, column: 5 }],
         
-    "/pa/units/l_addon/fab_turret/fab_turret.json": ["factory", 0, { row: 2, column: 7, titans: true }],
-    "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json": ["factory", 0, { row: 0, column: 7, titans: true }],
-	"/pa/units/addon/jammer_titan/jammer_titan.json": ["utility", 0, { row: 2, column: 0 }],
+    "/pa/units/l_addon/fab_turret/fab_turret.json": ["factory", 0, { row: 2, column: 9, titans: true }],
+    "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json": ["factory", 0, { row: 0, column: 9, titans: true }],
+	"/pa/units/addon/jammer_titan/jammer_titan.json": ["utility", 0, { row: 0, column: 0 }],
 	"/pa/units/addon/jammer/jammer.json": ["utility", 0, { row: 1, column: 2 }],
 	"/pa/units/addon/system_radar/system_radar.json": ["utility", 0, { row: 0, column: 2 }],
 	"/pa/units/addon/basic_missile_defence/basic_missile_defence.json": ["combat", 0, { row: 2, column: 5 }],
-	"/pa/units/addon/demi_titan_bot/demi_titan_bot.json": ["factory", 0, { row: 0, column: 1 }],
+	"/pa/units/addon/demi_titan_bot/demi_titan_bot.json": ["factory", 0, { row: 1, column: 7 }],
 	"/pa/units/addon/orbital_anti_nuke/orbital_anti_nuke.json": ["orbital_structure", 6, { row: 0, column: 3 }],
 	"/pa/units/l_addon/l_orbital_jammer/l_orbital_jammer.json": ["orbital_structure", 0, { row: 1, column: 3 }],
 	"/pa/units/l_addon/l_orbital_power/l_orbital_power.json": ["orbital_structure", 0, { row: 2, column: 1 }],
@@ -389,7 +389,7 @@ var Build = (function() {
 	
 	
 	
-	
+	//AURORA ARTILLERY
 	
 
     "/pa/units/land/artillery_comet/artillery_comet.json": ["combat", 0, { row: 3, column: 6, titans: true }],
@@ -398,6 +398,26 @@ var Build = (function() {
     "/pa/units/land/bot_sun/bot_sun.json": ["bot", 0, { row: 3, column: 8, titans: true }],
     "/pa/units/orbital/orbital_armageddon/orbital_armageddon.json": ["orbital", 0, { row: 2, column: 4, titans: true }],
     "/pa/units/land/tank_heavy_meteor/tank_heavy_meteor.json": ["vehicle", 0, { row: 1, column: 4, titans: true }],	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//SECTION 17
+	
+	"/pa/units/paeiou/experimental_vehicle_gantry/experimental_vehicle_gantry.json": ["factory", 0,{ row: 1, column: 3, titans: true }],
+	"/pa/units/paeiou/big_bill/big_bill.json": ["vehicle", 0,{ row: 1, column: 4, titans: true }],
+	"/pa/units/paeiou/pineapple/pineapple.json": ["bot", 0,{ row: 1, column: 5, titans: true }],
+	"/pa/units/paeiou/floater/floater.json": ["vehicle", 0,{ row: 1, column: 1, titans: true }],
+	"/pa/units/paeiou/spider/spider.json": ["bot", 0,{ row: 2, column: 7, titans: true }],
+	"/pa/units/paeiou/dolfin/dolfin.json": ["sea", 0,{ row: 2, column: 6, titans: true }],
+	"/pa/units/paeiou/poseidon/poseidon.json": ["factory", 0,{ row: 0, column: 5, titans: true }],
+	"/pa/units/paeiou/yellowjacket/yellowjacket.json": ["air", 0,{ row: 1, column: 6, titans: true }],
+	"/pa/units/paeiou/horntail/horntail.json": ["air", 0,{ row: 1, column: 3, titans: true }],
 	
     };
 
