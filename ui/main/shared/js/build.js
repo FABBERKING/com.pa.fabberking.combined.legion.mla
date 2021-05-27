@@ -409,15 +409,15 @@ var Build = (function() {
 	
 	//SECTION 17
 	
-	"/pa/units/paeiou/experimental_vehicle_gantry/experimental_vehicle_gantry.json": ["factory", 0,{ row: 1, column: 3, titans: true }],
-	"/pa/units/paeiou/big_bill/big_bill.json": ["vehicle", 0,{ row: 1, column: 4, titans: true }],
-	"/pa/units/paeiou/pineapple/pineapple.json": ["bot", 0,{ row: 1, column: 5, titans: true }],
-	"/pa/units/paeiou/floater/floater.json": ["vehicle", 0,{ row: 1, column: 1, titans: true }],
+	"/pa/units/paeiou/experimental_gantry/experimental_gantry.json": ["factory", 0,{ row: 1, column: 3, titans: true }],
+	"/pa/units/paeiou/big_bill/big_bill.json": ["experimental", 0,{ row: 1, column: 4, titans: true }],
+	"/pa/units/paeiou/pineapple/pineapple.json": ["experimental", 0,{ row: 1, column: 5, titans: true }],
+	"/pa/units/paeiou/floater/floater.json": ["experimental", 0,{ row: 1, column: 1, titans: true }],
 	"/pa/units/paeiou/spider/spider.json": ["bot", 0,{ row: 2, column: 7, titans: true }],
 	"/pa/units/paeiou/dolfin/dolfin.json": ["sea", 0,{ row: 2, column: 6, titans: true }],
 	"/pa/units/paeiou/poseidon/poseidon.json": ["factory", 0,{ row: 0, column: 5, titans: true }],
 	"/pa/units/paeiou/yellowjacket/yellowjacket.json": ["air", 0,{ row: 1, column: 6, titans: true }],
-	"/pa/units/paeiou/horntail/horntail.json": ["air", 0,{ row: 1, column: 3, titans: true }],
+	"/pa/units/paeiou/horntail/horntail.json": ["experimental", 0,{ row: 1, column: 3, titans: true }],
 	
     };
 

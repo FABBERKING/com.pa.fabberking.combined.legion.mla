@@ -40,7 +40,7 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 2000,
-  "buildable_types": "Land & Structure & Advanced - Factory| Factory & Advanced & Bot & Land | FabAdvBuild | FabBuild | Titan & Bot",
+  "buildable_types": "Land & Structure & Advanced - Factory| Factory & Advanced & Bot & Land | FabAdvBuild | FabBuild | Titan & Bot - Teleporter",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
