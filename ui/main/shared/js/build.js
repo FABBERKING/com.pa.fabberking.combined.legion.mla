@@ -419,6 +419,12 @@ var Build = (function() {
 	"/pa/units/paeiou/yellowjacket/yellowjacket.json": ["air", 0,{ row: 1, column: 6, titans: true }],
 	"/pa/units/paeiou/horntail/horntail.json": ["experimental", 0,{ row: 1, column: 3, titans: true }],
 	
+	
+	
+	//BUGS MOD
+	
+	"/pa/units/land/zap/bugzapper.json": ["bugs", 0, { row: 3, column: 0 }]
+	
     };
 
     return {
