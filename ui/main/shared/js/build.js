@@ -120,6 +120,7 @@ var Build = (function() {
         "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json": ["bot", 15, {row: 3, column: 3}],
         "/pa/units/land/bot_bomb/bot_bomb.json": ["bot", 16, {row: 3, column: 4}],
         "/pa/units/land/bot_tesla/bot_tesla.json": ["bot", 17, {row: 3, column: 5}],
+		"/pa/units/land/bot_aa/bot_aa.json": ["bot", 18, {row: 3, column: 7}],
 
 
         "/pa/units/air/support_platform/support_platform.json": ["air", 0, {row: 1, column: 0}],
@@ -352,7 +353,6 @@ var Build = (function() {
     "/pa/units/addon/adv_tank_hover/adv_tank_hover.json": ["vehicle", 9, { row: 2, column: 5 }],
 
     "/pa/units/addon/rex/rex.json": ["bot", 0, { row: 3, column: 6 }],
-    "/pa/units/addon/bot_aa/bot_aa.json": ["bot", 0, { row: 3, column: 7 }],
     "/pa/units/addon/adv_heavy_bot/adv_heavy_bot.json": ["bot", 0, { row: 2, column: 6 }],
 
     "/pa/units/addon/metal_generator/metal_generator.json": ["utility", 0, { row: 3, column: 5 }],
@@ -383,6 +383,9 @@ var Build = (function() {
 	"/pa/units/l_addon/l_orbital_power/l_orbital_power.json": ["orbital_structure", 0, { row: 2, column: 1 }],
 	"/pa/units/l_addon/anti_orbital_ship/anti_orbital_ship.json": ["L_sea", 0, { row: 3, column: 5 }],
 	
+	"/pa/units/addon/fabrication_sub/fabrication_sub.json": ["sea", 0, { row: 3, column: 7 }],
+	"/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot.json": ["factory", 0, { row: 1, column: 2 }],
+	
 	
 	
 	
@@ -409,7 +412,7 @@ var Build = (function() {
 	
 	//SECTION 17
 	
-	"/pa/units/paeiou/experimental_gantry/experimental_gantry.json": ["factory", 0,{ row: 1, column: 3, titans: true }],
+	"/pa/units/paeiou/experimental_gantry/experimental_gantry.json": ["factory", 0,{ row: 0, column: 0, titans: true }],
 	"/pa/units/paeiou/big_bill/big_bill.json": ["experimental", 0,{ row: 1, column: 4, titans: true }],
 	"/pa/units/paeiou/pineapple/pineapple.json": ["experimental", 0,{ row: 1, column: 5, titans: true }],
 	"/pa/units/paeiou/floater/floater.json": ["experimental", 0,{ row: 1, column: 1, titans: true }],
