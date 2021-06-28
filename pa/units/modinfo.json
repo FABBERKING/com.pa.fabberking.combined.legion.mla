@@ -1,0 +1,36 @@
+ {
+   "context": "server",
+   "identifier": "com.pa.fabberking.combined.legion.mla",
+   "display_name": "Combined MLA and Legion Faction",
+   "description": "Combines MLA and Legion into one faction, Removes redundant structures. Able to be merged with Second Wave, Aurora Artillery and Section 17.",
+   "author": "FABBERKING, Matiousajac, nicb1, Crembels, KillerKiwiJuice, mgmetal13, zx0, Alpha2546, PRoeleert, wondible, mikeyh, Quitch, Stuart98, dom314, CptConundrum, Elodea, AndreasG, Clopse, Graushwein, N30N, Qzipco, WPMarshall, xankar, Taiga, Reckoner, Anonemous2",
+
+   "version": "1.20.1",
+   "build": "115819",
+   "date": "2021-06-24",
+
+   "titansOnly": true,
+   "signature": "",
+   "forum": "https://forums.planetaryannihilation.com/threads/rel-mla-legion-mod.73245/",
+   "searchable": [
+ "legion",
+ "mla",
+ "combined",
+ "faction"
+ ],
+   "dependencies": [
+        "com.pa.legion-expansion-server"
+    ],
+   "priority": 75,
+   "icon": "https://i.imgur.com/KPWH6LD.png",
+    "category":
+    [
+        "units",
+        "",
+        "",
+        "gameplay",
+        "",
+        "",
+        ""
+    ]
+}
