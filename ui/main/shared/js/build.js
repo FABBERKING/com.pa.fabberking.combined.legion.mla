@@ -421,6 +421,7 @@ var Build = (function() {
 	"/pa/units/paeiou/poseidon/poseidon.json": ["factory", 0,{ row: 0, column: 5, titans: true }],
 	"/pa/units/paeiou/yellowjacket/yellowjacket.json": ["air", 0,{ row: 1, column: 6, titans: true }],
 	"/pa/units/paeiou/horntail/horntail.json": ["experimental", 0,{ row: 1, column: 3, titans: true }],
+	"/pa/units/paeiou/sigma/sigma.json": ["orbital_structure", 0,{ row: 0, column: 2, titans: true }],
 	
 	
 	
